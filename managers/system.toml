@@ -3,10 +3,10 @@
 #    Package Manager Configuration    #
 # ----------------------------------- #
 
-add = "paru -S --needed --noconfirm #:?"
-remove = "paru -Rns --noconfirm #:?"
-sync = "paru -Syy --needed --noconfirm"
-upgrade = "paru -Syyu --needed --noconfirm"
+add = "paru -S --needed"
+remove = "paru -Rns"
+sync = "paru -Syy --needed"
+upgrade = "paru -Syyu --needed"
 
 # ------------------------------- #
 #    Additional configuration.    #
